@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head'); %>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <%- include('./partials/navbar'); %>
+    <div class="container">
+      <h1>Что это за приложение?</h1>
+      <p>
+        Написал это мини приложение как первое на фреймворке express js. Оно
+        содержит в себе работу с сервером, а также небольшую работу с JSON.
+      </p>
+      <p>Что использовал:</p>
+      <ul>
+        <li>Express js</li>
+        <li>Bootstrap</li>
+        <li>Шаблонизатор EJS</li>
+        <li>
+          Создал прототип React-приложения, в дальнейшем буду дорабатывать
+        </li>
+      </ul>
+      <a class="with-shadow btn btn-outline-primary" href="/"
+        ><i class="fas fa-arrow-left"></i> На главную</a
+      >
+      <div class="app"></div>
+    </div>
+
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="/app.js"></script>
+  </body>
+</html>
